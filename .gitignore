@@ -173,3 +173,7 @@ poetry.toml
 # mac
 .DS_Store
 .idea/
+
+#vscode
+.vscode
+*.code-workspace
