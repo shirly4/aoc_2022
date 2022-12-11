@@ -37,7 +37,6 @@ DIRECTION_VECTOR = {
     "D": Vector2d(x=0, y=-1),
     "R": Vector2d(x=1, y=0),
     "L": Vector2d(x=-1, y=0),
-
 }
 
 
@@ -76,7 +75,7 @@ def main():
     tail_visited_position = {knot_positions[-1]}
 
     #motions = [("R",5), ("U", 8), ("L", 8), ("D", 3), ("R", 17), ("D", 10), ("L",25 ), ("U", 20)]
-   
+
     for direction, step in motions:    
         for _ in range(int(step)):
          
